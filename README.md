@@ -12,7 +12,19 @@ Lab 5: Terraform
       export TF_VAR_do_token=<token_value>
       ```
 - Creating main.tf based on digital ocean documentation
-- Run: terraform init
-- To validate: terraform plan or terraform validate
-- To build: terraform apply
-- To delete everything: terraform destroy
+- Run: 
+  ```bash
+  terraform init
+  ```
+- To validate
+   ```bash
+  terraform plan or terraform validate
+  ``` 
+- To build
+   ```bash
+  terraform apply
+  ``` 
+- To delete everything
+   ```bash
+  terraform destroy
+  ``` 
