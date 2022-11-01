@@ -5,5 +5,8 @@ Lab 5: Terraform
   3. Unzip the folder and move the file into usr/local/bin
   4. Remove the zip
 - Creating the .env file
-- Creating main.tf
-  1. run """terraform init"""
+- Creating main.tf based on digital ocean documentation
+- Run: terraform init
+- To validate: terraform plan or terraform validate
+- To build: terraform apply
+- To delete everything: terraform destroy
