@@ -8,9 +8,9 @@ Lab 5: Terraform
   1. In digitalocean, go to API to generate a token
   2. copy the token and put it in a .env file
   3. export the token as TF_VAR
-      ```bash
-      export TF_VAR_do_token=<token_value>
-      ```
+  ```bash
+  export TF_VAR_do_token=<token_value>
+  ```
 - Creating main.tf based on digital ocean documentation
 - Run: 
   ```bash
